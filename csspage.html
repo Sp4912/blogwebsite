@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css page</title>
+    <style>
+        
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+header .container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+
+main {
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+main .container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.post {
+    background-color: #fff;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.post h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.post .date {
+    color: #888;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+}
+
+.post .post-image {
+    width: 600px;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+    align-items: center;
+    
+}
+
+.post .intro {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.post p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+    </style>
+</head>
+<body>
+  
+    <header>
+        <div class="container">
+            <h1>WEB DEVELOPMENT</h1>
+        </div>
+    </header>
+
+    
+    <main>
+        <div class="container">
+            <article class="post">
+                <h2>CSS</h2>
+                <p class="date">November 13, 2024</p>
+                <img src="css image.jpg" alt="CSS" class="post-image">
+                <p class="intro">CSS is a stylesheet language used to describe the presentation and formatting of a document written in HTML (or XML). CSS defines how elements within a web page should be displayed, including their layout, colors, fonts, spacing, and other visual aspects.
+                   <p></p>
+                   <h3>Key Concepts of CSS:</h3> 
+                   
+<li>Selectors: Define the HTML elements to which styles are applied (e.g., div, p, .class, #id).</li>
+<li>Properties: Define what aspect of the element you want to style (e.g., color, font-size, margin).</li>
+<li>Values: Assign specific values to the properties (e.g., color: red, font-size: 16px).</li>
+
+<p></p>
+<h3>How CSS Works:</h3>
+<li>Inline CSS: Styles applied directly within an HTML element using the style attribute.</li>
+<li>Internal CSS: Styles defined within a style tag in the head section of an HTML document.</li>
+<li>External CSS: Styles stored in an external file with a .css extension, linked to an HTML document using the link tag.</li>
+<p></p>
+<h3>Key Features:</h3>
+<li>Responsive Design: CSS enables designs to adapt to different screen sizes (using media queries).</li>
+<li>Box Model: Defines how elements are structured, including padding, border, margin, and content area.</li>
+<li>Flexbox & Grid: Layout systems for creating flexible and complex web page structures.</li>
+<li>CSS is essential for creating attractive and well-organized websites, allowing designers to control the visual appearance without altering the HTML content.</li>
+
+                </p>
+            </article>
+        </div>
+    </main>
+
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My Blog. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

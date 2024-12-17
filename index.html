@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title> WEB DEVELOPMENT </title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 1rem 0;
+      
+    }
+
+header div
+{
+  text-align: center;
+      align-items: center;
+      justify-content: center;
+
+}
+    header h1 {
+      margin: 0;
+      font-size: 3.5rem;
+      
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      text-align: center;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    nav ul li a {
+      color: rgb(250, 148, 89);
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav ul li a:hover {
+      color: #6f9cf6;
+    }
+    
+    main {
+      padding: 2rem;
+    }
+
+    .posts {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 1.5rem;
+      max-width: 100%;
+      margin: 0 auto;
+    }
+
+    .post {
+      background-color: rgb(9, 9, 9);
+      padding: 1.5rem;
+      width: 30%; 
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .post:hover {
+      transform: translateY(-10px); 
+      background-color: rgb(249, 245, 245);
+    }
+
+    .post img {
+      width: 100%; 
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+
+    .post h2 {
+      margin-bottom: 0.8rem;
+      font-size: 1.6rem;
+    }
+
+    .post .meta {
+      font-size: 0.9rem;
+      color: #666;
+      margin-bottom: 1rem;
+    }
+
+    .post a {
+      color: #f46c28;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .post a:hover {
+      color: #007bff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #333;
+      color: white;
+      margin-top: 2rem;
+    }
+
+    @media (max-width: 768px) {
+      .post {
+        width: 100%; 
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <h1>WEB DEVELOPMENT</h1> 
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#html">HTML</a></li>
+        <li><a href="#css">CSS</a></li>
+        <li><a href="#js">JS</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="posts">
+      <article class="post">
+        <img src="html photo.jpg" alt="HyperText Markup Language">
+        <p class="meta">November 12, 2024</p>
+        <h2>HyperText Markup Language</h2>
+        <p>HTML is the standard language used to create and structure content on the web. It defines the structure of web pages by using a system of elements (tags) to organize and display text, images, links, multimedia, and other types of content in a browser.</p>
+        <a href="htmlpage.html">Read More...</a>
+      </article>
+      
+      <article class="post">
+        <img src="css image.jpg" alt="CasCading Style Sheets">
+        <p class="meta">November 13, 2024</p>
+        <h2>CasCading Style Sheets</h2>
+        <p>CSS is a stylesheet language used to describe the presentation and formatting of a document written in HTML (or XML). CSS defines how elements within a web page should be displayed, including their layout, colors, fonts, spacing, and other visual aspects.</p>
+        <a href="csspage.html">Read More...</a>
+      </article>
+
+      <article class="post">
+        <img src="javascript image.jpg" alt="JavaScript">
+        <p class="meta">November 14,2024</p>
+        <h2>JavaScript</h2>
+        <p>JavaScript is a high-level, dynamic, and interpreted programming language primarily used for creating interactive effects within web browsers. It was originally developed by Netscape to enable dynamic content on web pages.</p>
+        <a href="jspage.html">Read More...</a>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Blog. All rights reserved.</p>
+  </footer>
+</body>
+</html>
